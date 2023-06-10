@@ -1,0 +1,151 @@
+/* Custom styles for the dark navbar */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #222;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Styles for the content section */
+.content {
+  margin: 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.content ul {
+  list-style-type: disc;
+  color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.content li {
+  margin-bottom: 5px;
+}
+
+/* Styles for the header section */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.header li {
+  margin-bottom: 5px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.container.register {
+  margin-top: 50px;
+}
+
+.register-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.register-form {
+  padding: 20px 40px;
+  width: 400px;
+  margin-right: 50px;
+  background-color: #363636;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btnSubmit {
+  background-color: #949494;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnSubmit:hover {
+  background-color: #555;
+}
+
+.text-align {
+  text-align: center;
+}
